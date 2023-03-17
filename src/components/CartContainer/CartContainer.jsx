@@ -2,13 +2,14 @@ import React from 'react';
 import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
 import { CartItem } from '../CartItem/CartItem';
+import './CartContainer.css'
 
 export const CartContainer = () => {
   const {productCartList, clearProductCartList} = useContext(CartContext);
 
   return (
-    <div>
-      <p>CartContainer</p>
+    <div className='cart-container'>
+      <p>Resumen de la Compra</p>
       <div>
         {
           productCartList.length>0 ?

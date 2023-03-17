@@ -30,7 +30,7 @@ export const ItemListContainer = ()=>{
 
     return(
         <div className="item-list-container">
-            <p>item list container</p>
+            <p className="titulo-store">NBA Store - URUGUAY</p>
             <ItemList items={productos}/>
         </div>
     )

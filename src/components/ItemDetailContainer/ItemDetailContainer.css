@@ -1,9 +1,9 @@
 .item-detail-container{
-    margin: 10px auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: lightgray;
-    padding: 10px;
+    background: #0c2b9c;
+    padding: 20px;
 }

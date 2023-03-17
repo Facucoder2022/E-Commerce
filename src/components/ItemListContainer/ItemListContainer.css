@@ -1,10 +1,18 @@
-.item-list-container {
+.item-list-container{
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: #e4e6ed;
+    background: #0c2b9c;
     padding: 10px 0;
+}
+
+.titulo-store{
+    font-size: 2.3em;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+
+
 }

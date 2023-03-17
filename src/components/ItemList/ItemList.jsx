@@ -6,7 +6,7 @@ export const ItemList = ({items})=>{
 
     return(
         <div className="estilos-listado">
-            <div style={{width:"100%"}}>item list</div>
+            <div className="titulo-catalogo" style={{width:"100%"}}>Catalogo</div>
             {
                 items.map(producto=>(
                     // <Link key={producto.id} to={`/item/${producto.id}`}>
